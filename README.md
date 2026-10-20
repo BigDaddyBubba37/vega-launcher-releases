@@ -1,17 +1,94 @@
-# Vega Launcher Releases
+<h1 align="center">Vega Launcher</h1>
 
-This repository hosts production Vega Launcher APK releases and release notes. Source development is maintained separately in a private repository.
+<p align="center">Bringing back the Nova Launcher features we love, with a Vega touch.</p>
+<p align="center">Based on Lawnchair 16 and Android's Launcher3.</p>
 
-Vega Launcher is a customized Android launcher based on Lawnchair 16 and Launcher3, with vertical drawer groups, a separate drawer-folders section, hidden apps, backup and restore, a native clock/date widget, and Vega branding.
+Vega Launcher is a personal project with a simple goal: bring our favorite Nova Launcher features into a modern Android home that feels like our own. From organizing apps with groups and folders to custom icons, hidden apps, and backup and restore, we're building the controls and familiar touches we love, one feature at a time.
 
-## Release status
+Built on Lawnchair 16 and Android's Launcher3, Vega adds its own identity, a native clock and date widget, and thoughtfully chosen defaults. Nova Launcher is our inspiration; Vega is an independent project and is not affiliated with Nova Launcher.
 
-The production signing and update pipeline is being prepared. **No production APK has been published yet.**
+**Download:** [Get the latest Vega Launcher APK](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/latest). This public repository contains releases and user information; source development remains private.
 
-Production package: `app.vega.launcher`. The personal testing build, `app.vega.launcher.debug`, is a separate application and is not replaced by a production installation.
+## New and enhanced in Vega
 
-Future releases will include release notes, APK integrity information, and installation details. Android installation confirmation will remain required.
+### App drawer groups and folders
+
+- **Expanded vertical groups** in one continuous scrolling drawer, with visible headings and app counts.
+- **Manage Groups** to create, rename, delete, reorder, and assign apps with searchable multi-selection and an explicit Save action.
+- Each app belongs to at most one custom group; unassigned apps appear in **Other Apps**, always last.
+- A small **pencil beside the app count** opens that group's editor directly. The Other Apps pencil opens Manage Groups.
+- Saved drawer folders appear in their own **Folders section above the groups**. The section is omitted entirely when there are no eligible folders to display.
+- Folder contents, ordering, and saved group assignments are preserved. The existing setting for hiding apps contained in folders also applies to the group listings below them.
+- Live drawer updates when group or folder configuration changes.
+- Work-profile app icons retain their **briefcase badges**. Private Space stays in its separate protected presentation.
+
+### Hide Apps
+
+- A dedicated selection screen for hiding and unhiding multiple apps.
+- A direct **Hide App** action on eligible drawer and prediction icons.
+- Hidden apps are excluded from drawer listings, groups, drawer app search, and drawer predictions.
+- Saved hidden selections survive restarts and are included in backup and restore.
+- Hiding changes launcher visibility; it does not uninstall or disable an app.
+
+### Backup and restore
+
+- Restores home-screen and dock layouts, folders, app placements, launcher preferences, and customization settings.
+- Includes custom drawer groups, hidden-app selections, and registered assets such as custom folder images.
+- Validates and stages restore data, then installs it before launcher storage initializes.
+- Preserves custom folder-image associations through restoration.
+- Exports suggested filenames as **VegaLauncher_Backup <date/time>.lawnchairbackup**.
+- Widget placements are included; Android may require widget rebinding or configuration. External live-wallpaper applications and their state are not supplied by a Vega backup.
+
+### Native Vega Clock & Date widget
+
+- A native, resizable **2×2 clock and date widget** with two dark-green panels, lavender/green accents, and a minimal four-part display.
+- Uses Android TextClock updates for time and date, including timezone and locale handling and system 12/24-hour settings.
+- Supports resizing and launcher/device restarts, with backup and restore integration.
+- Includes the widget-resize protection retained in Vega's launcher code.
+
+### Fresh-install home screen
+
+New workspaces start with a **6-column × 10-row grid**, the native Vega clock centered near the upper third, and this six-icon dock:
+
+**Phone → Contacts → Messages → Chrome → Gmail → Vega Settings**
+
+Google apps are preferred; suitable installed equivalents are used where supported. Missing or ambiguous apps leave their slots empty.
+
+The initial preset also includes smaller icons, a six-column drawer, hidden home/drawer icon labels, disabled Smartspace and global predictions, and the accepted folder, notification-dot, and menu styling. It includes a Vega Launcher drawer group for the launcher and Settings entries.
+
+Defaults apply only to genuinely fresh storage. **Existing, upgraded, and restored layouts are preserved.** The reference preset does not bundle a wallpaper image.
+
+
+### Vega identity and settings
+
+- Dedicated Vega application IDs, artwork, and branding.
+- A separate **Vega Settings** drawer/dock entry with **white rings, a blue center star, and a transparent background**.
+- A redesigned About page with Vega's star/meadow/launcher definitions, pronunciation actions, version information, and Lawnchair attribution.
+- Lawnchair promotional announcement cards and the development warning removed from the settings dashboard; useful system notices retained.
+- Automatic Lawnchair release checks and the obsolete Updater settings disabled. Production **Vega Updates** checks this public repository for signed updates. Open it from General settings or by tapping the version on About. The 0.1.0 to 0.1.1 update was successfully tested by the project owner.
+
+### Custom folder icons
+
+Vega retains its custom folder-icon selection and caching, including gallery images and supported icon sources. Folder-image assets and their folder associations are included in manual backup and restore.
+
+## Built on Lawnchair
+
+Vega retains the underlying launcher customization infrastructure, including icon packs, fonts, colors, search, and supported profile handling. Existing Private Space lock/unlock behavior is retained; creating Private Space directly from Vega is a separate investigation.
+
+Quickstep integration remains dependent on the supported Android version and device setup. It is not required for ordinary home-screen use.
+
+
+## Download and install
+
+1. Open [the latest release](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/latest).
+2. Under **Assets**, download **VegaLauncher-<version>.apk**.
+3. Open the APK and allow installation from your browser or file manager if Android asks.
+4. Select **Vega Launcher** as your default home app.
+
+Requires **Android 8.0 or newer**. Production updates preserve the existing app installation; Android asks you to confirm installation. Debug builds use a separate app identity.
+
+Vega is under active development. Compatibility with every device, Android version, widget provider and profile configuration has not been established.
 
 ## Credits
 
-Vega Launcher is based on Lawnchair 16 and Android Launcher3. Applicable upstream licenses, copyrights, and acknowledgements are preserved in the application and distribution.
+Vega builds on [Lawnchair](https://github.com/LawnchairLauncher/lawnchair) and Android Launcher3. Credit and applicable licenses remain with their respective authors. Nova Launcher provides inspiration; Vega is an independent project.

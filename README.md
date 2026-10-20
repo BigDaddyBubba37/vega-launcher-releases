@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/vega-logo.png" alt="Vega Launcher logo" width="144" />
+</p>
+
 <h1 align="center">Vega Launcher</h1>
 
 <p align="center">Bringing back the Nova Launcher features we love, with a Vega touch.</p>

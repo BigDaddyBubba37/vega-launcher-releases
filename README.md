@@ -13,6 +13,27 @@ Built on Lawnchair 16 and Android's Launcher3, Vega adds its own identity, a nat
 
 **Download:** [Get the latest Vega Launcher APK](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/latest). This public repository contains releases and user information; source development remains private.
 
+## Screenshots
+
+A look at Vega Launcher on a real device. Tap a screenshot to see it full size.
+
+<table>
+  <tr>
+    <td align="center" width="50%"><strong>Home screen</strong><br /><br /><a href="assets/screenshots/home-screen.jpg"><img src="assets/screenshots/home-screen.jpg" alt="Vega Launcher: home screen" width="280" /></a><br />Native Vega clock and date widget with a six-icon dock.</td>
+    <td align="center" width="50%"><strong>Folders and groups</strong><br /><br /><a href="assets/screenshots/personal-drawer.jpg"><img src="assets/screenshots/personal-drawer.jpg" alt="Vega Launcher: folders and groups" width="280" /></a><br />Drawer folders at the top, followed by named groups and direct-edit pencils.</td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><strong>Work profile</strong><br /><br /><a href="assets/screenshots/work-profile.jpg"><img src="assets/screenshots/work-profile.jpg" alt="Vega Launcher: work profile" width="280" /></a><br />Separate Work tab, custom groups, and briefcase badges.</td>
+    <td align="center" width="50%"><strong>Edit a group</strong><br /><br /><a href="assets/screenshots/edit-group.jpg"><img src="assets/screenshots/edit-group.jpg" alt="Vega Launcher: edit a group" width="280" /></a><br />Rename, search, and select apps with an explicit Save action.</td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><strong>Edit a folder</strong><br /><br /><a href="assets/screenshots/edit-folder.jpg"><img src="assets/screenshots/edit-folder.jpg" alt="Vega Launcher: edit a folder" width="280" /></a><br />Searchable app selection, folder naming, and duplicate filtering.</td>
+    <td align="center" width="50%"><strong>Folder gestures and icons</strong><br /><br /><a href="assets/screenshots/folder-gestures.jpg"><img src="assets/screenshots/folder-gestures.jpg" alt="Vega Launcher: folder gestures and icons" width="280" /></a><br />Assign four swipe directions and choose custom folder icons.</td>
+  </tr>
+</table>
+
+Screenshots show an example setup. Wallpaper, fonts, icon packs, and installed apps can vary; third-party artwork and apps shown are not bundled with Vega.
+
 ## New and enhanced in Vega
 
 ### App drawer groups and folders

@@ -13,7 +13,18 @@ Built on Lawnchair 16 and Android's Launcher3, Vega adds its own identity, a nat
 
 **Download:** [Get the latest Vega Launcher APK](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/latest). This public repository contains releases and user information; source development remains private.
 
-## New in Vega 0.1.3
+## New in Vega 0.1.4
+
+- **Tasker actions:** lock the phone, lock Private Space or pause Work, with explicit authorization for each configuration.
+- **Optional Vega wallpaper:** preview the mountain-and-train still before choosing it, at first installation or later in Home screen settings.
+- **Clearer feed setup:** guided AIDL Bridge installation, provider detection and improved reconnection.
+- **Better older-device support:** fixes for startup, the clock/date widget, work-profile activation and unwanted home menus after swipe-unlock.
+- **75% drawer opacity by default:** existing saved and restored settings remain unchanged.
+- Updated **What's new** popup under the About information, preserving Vega's definitions and styling.
+
+Read the [full 0.1.4 release notes](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/v0.1.4) for setup, compatibility and tested scope. The project owner confirmed all three Tasker actions and LG work-profile/clock/unlock fixes; wider device and provider testing continues. Android retains profile authentication and policy control.
+
+## Previously in Vega 0.1.3
 
 - Compatible **1×1 dock widgets**, including improved Tasker V2 configuration, taps, sizing and live updates.
 - **Work profile setup/status** directly on the main Vega Settings page; existing profiles disable setup.
@@ -42,7 +53,7 @@ A look at Vega Launcher on a real device. Tap a screenshot to see it full size.
   </tr>
 </table>
 
-Screenshots show an example setup. Wallpaper, fonts, icon packs, and installed apps can vary; third-party artwork and apps shown are not bundled with Vega.
+Screenshots show an example setup. Vega includes an optional still of the mountain-and-train wallpaper. Fonts, icon packs and installed apps can vary; third-party apps and icon packs shown are not bundled.
 
 ## New and enhanced in Vega
 
@@ -91,7 +102,7 @@ Google apps are preferred; suitable installed equivalents are used where support
 
 The initial preset also includes smaller icons, a six-column drawer, hidden home/drawer icon labels, disabled Smartspace and global predictions, and the accepted folder, notification-dot, and menu styling. It includes a Vega Launcher drawer group for the launcher and Settings entries.
 
-Defaults apply only to genuinely fresh storage. **Existing, upgraded, and restored layouts are preserved.** The reference preset does not bundle a wallpaper image.
+Defaults apply only to genuinely fresh storage. **Existing, upgraded, and restored layouts are preserved.** An optional bundled Vega wallpaper preview lets you choose the mountain-and-train still or keep your current wallpaper. Open Home screen settings to preview it later.
 
 
 ### Vega identity and settings
@@ -105,6 +116,14 @@ Defaults apply only to genuinely fresh storage. **Existing, upgraded, and restor
 ### Custom folder icons
 
 Vega retains its custom folder-icon selection and caching, including gallery images and supported icon sources. Folder-image assets and their folder associations are included in manual backup and restore.
+
+## Tasker actions
+
+In Tasker, choose **Plugin → Vega Launcher → Configuration**, select **Lock phone**, **Lock Private Space** or **Pause Work profile**, then **Save and authorize**. Configure each action separately. Phone locking needs Vega's existing accessibility or screen-lock administrator permission. Private Space requires Android 15+; Work pause requires Android 9+. Vega must be the default home app for profile actions; put Tasker's **Go Home** first if needed, and lock the phone last when combining actions. Work pause stops work apps and notifications rather than imposing a separate credential lock. After reinstalling or moving devices, open and save Tasker configurations again.
+
+## Google feed setup
+
+Open **Vega Settings → Home screen → Show feed**. Production builds require a compatible bridge when direct access is unavailable. Follow Vega's **Get AIDL Bridge** link, install the bridge, return to settings and select the available provider. Stock Lawnfeed may not authorize Vega's production package. Feed behavior depends on Google and device compatibility.
 
 ## Built on Lawnchair
 

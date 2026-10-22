@@ -13,6 +13,16 @@ Built on Lawnchair 16 and Android's Launcher3, Vega adds its own identity, a nat
 
 **Download:** [Get the latest Vega Launcher APK](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/latest). This public repository contains releases and user information; source development remains private.
 
+## New in Vega 0.1.3
+
+- Compatible **1×1 dock widgets**, including improved Tasker V2 configuration, taps, sizing and live updates.
+- **Work profile setup/status** directly on the main Vega Settings page; existing profiles disable setup.
+- **Private Space search** appears first after typing **priva**, with Android setup/unlock on supported devices.
+- Fixed the Private Space hide-toggle crash and made the search keyboard open on the **first tap**.
+- About now includes a **What’s new** card with the latest features and fixes.
+
+Read the [full 0.1.3 release notes](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/v0.1.3), including Android compatibility and testing limits. Fresh profile creation still needs wider device testing. Android retains authentication and automatic-lock control; on devices that restrict the hide preference, locked Private Space stays hidden and searchable.
+
 ## Screenshots
 
 A look at Vega Launcher on a real device. Tap a screenshot to see it full size.
@@ -98,7 +108,7 @@ Vega retains its custom folder-icon selection and caching, including gallery ima
 
 ## Built on Lawnchair
 
-Vega retains the underlying launcher customization infrastructure, including icon packs, fonts, colors, search, and supported profile handling. Existing Private Space lock/unlock behavior is retained; creating Private Space directly from Vega is a separate investigation.
+Vega retains the underlying launcher customization infrastructure, including icon packs, fonts, colors, search, and supported profile handling. Private Space search opens Android setup where supported or the existing authenticated unlock flow. Android remains responsible for profile security and automatic locking.
 
 Quickstep integration remains dependent on the supported Android version and device setup. It is not required for ordinary home-screen use.
 

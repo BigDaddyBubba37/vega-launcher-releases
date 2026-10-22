@@ -19,7 +19,7 @@ Built on Lawnchair 16 and Android's Launcher3, Vega adds its own identity, a nat
 - **Work profile setup/status** directly on the main Vega Settings page; existing profiles disable setup.
 - **Private Space search** appears first after typing **priva**, with Android setup/unlock on supported devices.
 - Fixed the Private Space hide-toggle crash and made the search keyboard open on the **first tap**.
-- About now includes a **What’s new** card with the latest features and fixes.
+- About has a **What’s new** link that opens the latest features and fixes in a scrollable popup.
 
 Read the [full 0.1.3 release notes](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/v0.1.3), including Android compatibility and testing limits. Fresh profile creation still needs wider device testing. Android retains authentication and automatic-lock control; on devices that restrict the hide preference, locked Private Space stays hidden and searchable.
 

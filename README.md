@@ -13,7 +13,22 @@ Built on Lawnchair 16 and Android's Launcher3, Vega adds its own identity, a nat
 
 **Download:** [Get the latest Vega Launcher APK](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/latest). This public repository contains releases and user information; source development remains private.
 
-## New in Vega 0.1.4
+## New in Vega 0.1.5
+
+- **Widget stacks** for home screens and popup gestures, with 2–5 widgets, manual navigation and transparent home content.
+- **Tasker events and saved-layout switching**, with explicit authorization, recovery and a 60-second switch cooldown.
+- **Backup library, restore preview, scheduled backups and saved layouts**.
+- **Settings search and Setup and diagnostics** for easier navigation and setup.
+- **Collapsible drawer groups, folder covers and configurable notification badges**.
+- Fixed drawer-folder taps and stack Settings/loading issues.
+
+Home-stack loading and transparent appearance are user-accepted. Popup stacks, live restore/rebinding and broader device/provider coverage remain pending.
+
+Read the [full 0.1.5 release notes](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/v0.1.5) for setup, update compatibility and testing limits.
+
+[Latest debug test build](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/debug-tasker-events-2026-10-23) installs separately from production.
+
+## Previously in Vega 0.1.4
 
 - **Tasker actions:** lock the phone, lock Private Space or pause Work, with explicit authorization for each configuration.
 - **Optional Vega wallpaper:** preview the mountain-and-train still before choosing it, at first installation or later in Home screen settings.

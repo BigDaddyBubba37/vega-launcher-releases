@@ -15,7 +15,7 @@ Built on Lawnchair 16 and Android's Launcher3, Vega adds its own identity, a nat
 
 [Historical release pages](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases)
 
-**Source review:** [Download the reviewed current source snapshot](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/source-d9f479866497). This source snapshot matches the current private testing code; it is not a source match for every historical release. Public APK downloads remain paused.
+**Source review:** [Download the reviewed current source snapshot](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/source-7e686a3bc3fa). This snapshot includes current application code and updated legal notices; it is not a source match for every historical release. Public APK downloads remain paused.
 
 ## New in Vega 0.1.5
 
@@ -55,24 +55,15 @@ Read the [full 0.1.3 release notes](https://github.com/BigDaddyBubba37/vega-laun
 
 ## Screenshots
 
-A look at Vega Launcher on a real device. Tap a screenshot to see it full size.
+The gallery is being refreshed for the current wallpaper. These settings screenshots show folder editing, group editing and folder gestures.
 
 <table>
   <tr>
-    <td align="center" width="50%"><strong>Home screen</strong><br /><br /><a href="assets/screenshots/home-screen.jpg"><img src="assets/screenshots/home-screen.jpg" alt="Vega Launcher: home screen" width="280" /></a><br />Native Vega clock and date widget with a six-icon dock.</td>
-    <td align="center" width="50%"><strong>Folders and groups</strong><br /><br /><a href="assets/screenshots/personal-drawer.jpg"><img src="assets/screenshots/personal-drawer.jpg" alt="Vega Launcher: folders and groups" width="280" /></a><br />Drawer folders at the top, followed by named groups and direct-edit pencils.</td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><strong>Work profile</strong><br /><br /><a href="assets/screenshots/work-profile.jpg"><img src="assets/screenshots/work-profile.jpg" alt="Vega Launcher: work profile" width="280" /></a><br />Separate Work tab, custom groups, and briefcase badges.</td>
-    <td align="center" width="50%"><strong>Edit a group</strong><br /><br /><a href="assets/screenshots/edit-group.jpg"><img src="assets/screenshots/edit-group.jpg" alt="Vega Launcher: edit a group" width="280" /></a><br />Rename, search, and select apps with an explicit Save action.</td>
-  </tr>
-  <tr>
-    <td align="center" width="50%"><strong>Edit a folder</strong><br /><br /><a href="assets/screenshots/edit-folder.jpg"><img src="assets/screenshots/edit-folder.jpg" alt="Vega Launcher: edit a folder" width="280" /></a><br />Searchable app selection, folder naming, and duplicate filtering.</td>
-    <td align="center" width="50%"><strong>Folder gestures and icons</strong><br /><br /><a href="assets/screenshots/folder-gestures.jpg"><img src="assets/screenshots/folder-gestures.jpg" alt="Vega Launcher: folder gestures and icons" width="280" /></a><br />Assign four swipe directions and choose custom folder icons.</td>
+    <td align="center"><strong>Edit folder</strong><br /><a href="assets/screenshots/edit-folder.jpg"><img src="assets/screenshots/edit-folder.jpg" alt="Vega folder editor" width="240" /></a></td>
+    <td align="center"><strong>Edit group</strong><br /><a href="assets/screenshots/edit-group.jpg"><img src="assets/screenshots/edit-group.jpg" alt="Vega group editor" width="240" /></a></td>
+    <td align="center"><strong>Folder gestures</strong><br /><a href="assets/screenshots/folder-gestures.jpg"><img src="assets/screenshots/folder-gestures.jpg" alt="Vega folder gestures" width="240" /></a></td>
   </tr>
 </table>
-
-Screenshots show an example setup. Vega includes an optional still of the mountain-and-train wallpaper. Fonts, icon packs and installed apps can vary; third-party apps and icon packs shown are not bundled.
 
 ## New and enhanced in Vega
 
@@ -165,3 +156,11 @@ Vega is under active development. Compatibility with every device, Android versi
 ## Credits
 
 Vega builds on [Lawnchair](https://github.com/LawnchairLauncher/lawnchair) and Android Launcher3. Credit and applicable licenses remain with their respective authors. Nova Launcher provides inspiration; Vega is an independent project.
+
+## Licensing and source
+
+Vega’s combined launcher distribution uses GNU GPL version 3 or, at your option, a later version. Original Apache, MIT, BSD and OFL component notices remain in place. Recipients may modify and redistribute under the applicable terms. The development repository and its Git history remain private; published source snapshots are public.
+
+[GNU GPLv3 text](https://www.gnu.org/licenses/gpl-3.0.en.html) · [Current application source review](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/source-7e686a3bc3fa) · [Dependency source companion](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/source-dependencies-892a517d21c2)
+
+Public APK downloads remain paused. Historical APK/source matching is still being checked against the original build records; the current source snapshot is not presented as a source match for every older release.

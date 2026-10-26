@@ -11,7 +11,9 @@ Vega Launcher is a personal project with a simple goal: bring our favorite Nova 
 
 Built on Lawnchair 16 and Android's Launcher3, Vega adds its own identity, a native clock and date widget, and thoughtfully chosen defaults. Nova Launcher is our inspiration; Vega is an independent project and is not affiliated with Nova Launcher.
 
-**Download:** [Get the latest Vega Launcher APK](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/latest). This public repository contains releases and user information; source development remains private.
+**Public APK downloads are temporarily paused during licensing and source-distribution review.** Historical release pages remain available for reference. Existing installations keep working; this pause does not change their data. A replacement public build and its matching source will be announced after review. Source development remains private.
+
+[Historical release pages](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases)
 
 ## New in Vega 0.1.5
 
@@ -26,7 +28,7 @@ Home-stack loading and transparent appearance are user-accepted. Popup stacks, l
 
 Read the [full 0.1.5 release notes](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/v0.1.5) for setup, update compatibility and testing limits.
 
-[Latest debug test build](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/debug-tasker-events-2026-10-23) installs separately from production.
+Public debug downloads are paused with the other historical APKs.
 
 ## Previously in Vega 0.1.4
 

@@ -15,6 +15,8 @@ Built on Lawnchair 16 and Android's Launcher3, Vega adds its own identity, a nat
 
 [Historical release pages](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases)
 
+**Source review:** [Download the reviewed current source snapshot](https://github.com/BigDaddyBubba37/vega-launcher-releases/releases/tag/source-d9f479866497). This source snapshot matches the current private testing code; it is not a source match for every historical release. Public APK downloads remain paused.
+
 ## New in Vega 0.1.5
 
 - **Widget stacks** for home screens and popup gestures, with 2–5 widgets, manual navigation and transparent home content.

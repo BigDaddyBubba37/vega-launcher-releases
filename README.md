@@ -55,13 +55,16 @@ Read the [full 0.1.3 release notes](https://github.com/BigDaddyBubba37/vega-laun
 
 ## Screenshots
 
-The gallery is being refreshed for the current wallpaper. These settings screenshots show folder editing, group editing and folder gestures.
+Screenshots from the current Vega testing build. Colors, fonts and layouts are customizable; some features shown are newer than public version 0.1.5. Select an image to view it at full size.
 
 <table>
   <tr>
-    <td align="center"><strong>Edit folder</strong><br /><a href="assets/screenshots/edit-folder.jpg"><img src="assets/screenshots/edit-folder.jpg" alt="Vega folder editor" width="240" /></a></td>
-    <td align="center"><strong>Edit group</strong><br /><a href="assets/screenshots/edit-group.jpg"><img src="assets/screenshots/edit-group.jpg" alt="Vega group editor" width="240" /></a></td>
-    <td align="center"><strong>Folder gestures</strong><br /><a href="assets/screenshots/folder-gestures.jpg"><img src="assets/screenshots/folder-gestures.jpg" alt="Vega folder gestures" width="240" /></a></td>
+    <td align="center"><strong>Home screen</strong><br /><a href="assets/screenshots/home-screen-organ-mountains.jpg"><img src="assets/screenshots/home-screen-organ-mountains.jpg" alt="Vega home screen with the Organ Mountains wallpaper and translucent clock and date widgets" width="240" /></a></td>
+    <td align="center"><strong>App drawer</strong><br /><a href="assets/screenshots/app-drawer-groups.jpg"><img src="assets/screenshots/app-drawer-groups.jpg" alt="Vega app drawer with folders, expandable app groups and Personal and Work tabs" width="240" /></a></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Settings</strong><br /><a href="assets/screenshots/settings-dashboard.jpg"><img src="assets/screenshots/settings-dashboard.jpg" alt="Vega settings dashboard with settings search and organized appearance and home controls" width="240" /></a></td>
+    <td align="center"><strong>Widget colors</strong><br /><a href="assets/screenshots/clock-widget-colors.jpg"><img src="assets/screenshots/clock-widget-colors.jpg" alt="Vega clock and date color editor with wallpaper preview, separate color controls and background opacity" width="240" /></a></td>
   </tr>
 </table>
 
